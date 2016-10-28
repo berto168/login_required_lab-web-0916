@@ -1,0 +1,7 @@
+Login
+
+<%= form_tag sessions_path do %>
+<%= label_tag 'user[name]' %>
+<%= text_field_tag 'user[name]' %>
+<%= submit_tag "Login" %>
+<% end %>
